@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./css/index.css" />
+</head>
+
+<body>
+
+    <form action="" method="POST">
+        <div class="register">
+            <div class="logo">
+                <img src="img/logo_ig.png" class="logo" alt="" />
+                <p>Vui lòng điền thông tin để đăng ký</p>
+            </div>
+            <label for="name"><b>Email:</b></label>
+            <input type="text" placeholder="Email" name="email" class="email" />
+            <label for="username"><b>Tên đăng nhập:</b></label>
+            <input type="text" placeholder="Tài khoản" name="username" class="username" />
+
+            <label for="gioitinh"><b>Giới tính:</b></label>
+            <input type="radio" name="gender" class="nam" value="Nam" checked/>Nam
+            <input type="radio" name="gender" class="nu" value="Nữ" />Nữ
+            <br>
+            <br>
+            <label for="birthday"><b>Ngày sinh:</b></label>
+            <input type="date" name="birthday" value="2000-01-01" min="1900-01-01" max="2050-01-01" />
+            <label for="password"><b>Mật khẩu:</b></label>
+            <input type="password" placeholder="Mật khẩu" name="password" class="password" />
+            <!-- <label for="password"><b>Nhập lại mật khẩu:</b></label>
+            <input type="password" placeholder="Nhập lại mật khẩu" name="password-repeat" id="password-nl"> -->
+
+            <button type="submit" class="btnRegister" onclick="register();">Đăng kí</button>
+            <hr />
+            <div class="input-signin">
+                <p>Bạn đã có tài khoản rồi? <a href="./index.html">Đăng nhập</a></p>
+            </div>
+        </div>
+    </form>
+</body>
+
+<script src="./js/index.js"></script>
+
+
+
+</html>
