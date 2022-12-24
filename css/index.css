@@ -5,6 +5,12 @@ body {
 
 * {
     box-sizing: border-box;
+    font-family: roboto;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/Roboto-Regular.woff2);
 }
 
 .logo {
@@ -58,4 +64,11 @@ hr {
 
 .input-signup p a {
     color: #0900bd;
+    font-family: roboto;
+}
+
+.input-signin,
+.input-signup {
+    font-family: roboto;
+    font-weight: 500;
 }
